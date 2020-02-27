@@ -1,0 +1,86 @@
+.button {
+    cursor: pointer;
+}
+
+.table {
+    border: 1px solid gray;
+}
+
+.container {
+    margin-top: 100px;
+}
+
+.deleteButton {
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(http://cdn.onlinewebfonts.com/svg/img_83432.png);
+    width: 20px;
+    height: 20px;
+}
+
+.page {
+    display: flex;
+    align-items: center;
+    padding-top: 220px;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+.login {
+    min-width: 220px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.password {
+    min-width: 220px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.login2 {
+    min-width: 350px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.password2 {
+    min-width: 350px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.name {
+    min-width: 350px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.films {
+    min-width: 350px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.login-button {
+    margin-top: 20px;
+    width: 50px;
+    height: 30px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.login-button:hover {
+    background-color: aliceblue;
+}
